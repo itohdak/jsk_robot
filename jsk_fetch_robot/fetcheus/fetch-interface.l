@@ -4,7 +4,7 @@
 (require "package://pr2eus/pr2-interface.l")
 
 (defclass fetch-interface
-  :super robot-interface
+  :super robot-move-base-interface ;; robot-interface
   :slots ()
   )
 
